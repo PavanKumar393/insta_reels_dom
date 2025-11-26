@@ -106,7 +106,7 @@ button:active {
   font-weight: 200;
   margin-top: 0.8vh;
   
-  background-color: blue;
+  /* background-color: blue; */
   height: 6.5vh;
   width: 37vh;
   color: white;
