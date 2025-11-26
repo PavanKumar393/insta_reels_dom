@@ -40,6 +40,7 @@ img {
 
 .bottom-part {
   width: 100%;
+  
   height: 12vh;
   padding-bottom: 15vh;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.788));
@@ -101,11 +102,12 @@ button:active {
 }
 
 .bottom-part > h1 {
-  font-size: 1.2vh;
+  font-size: 1.8vh;
   font-weight: 200;
-  margin-top: 0.2vh;
-  /* background-color: blue; */
-  height: 3.5vh;
+  margin-top: 0.8vh;
+  
+  background-color: blue;
+  height: 6.5vh;
   width: 37vh;
   color: white;
   margin-left: 3vh;
@@ -120,7 +122,7 @@ button:active {
   justify-content: end;
   align-items: center;
   flex-direction: column;
-
+margin-bottom: 3vh;
   height: 100vh;
   width: 10vh;
   color: white;
