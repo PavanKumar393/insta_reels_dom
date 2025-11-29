@@ -1,7 +1,7 @@
 let reelData = [
   {
     videoUrl: "./newReels/vid-8.mp4",
-    profilePicUrl: "https://example.com/profile1.jpg",
+    profilePicUrl: "https://i.pravatar.cc/300?img=1",
     likesCount: 19828,
     isLiked: false,
     isFollowed: false,
@@ -35,104 +35,108 @@ let reelData = [
     username: "ui_works",
     description: `Smooth animations\nModern design\nReact magic`,
   },
-  // {
-  //   videoUrl: "./newReels/vid-4.mp4",
-  //   profilePicUrl: "https://example.com/profile4.jpg",
-  //   likesCount: 768,
-  //   isLiked: true,
-  //   isFollowed: false,
-  //   shareCount: 210,
-  //   commentCount: 47,
-  //   repostCount: 27,
-  //   username: "frontend_x",
-  //   description: `CSS mastery\nFlex vs Grid\nPerfect layout`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-5.mp4",
-  //   profilePicUrl: "https://example.com/profile5.jpg",
-  //   likesCount: 555,
-  //   isLiked: false,
-  //   isFollowed: false,
-  //   shareCount: 55,
-  //   commentCount: 12,
-  //   repostCount: 6,
-  //   username: "code_with_art",
-  //   description: `Creative coding\nSmooth transitions\nUI that pops`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-6.mp4",
-  //   profilePicUrl: "https://example.com/profile6.jpg",
-  //   likesCount: 73892,
-  //   isLiked: true,
-  //   isFollowed: true,
-  //   shareCount: 410,
-  //   commentCount: 102,
-  //   repostCount: 51,
-  //   username: "daily_logic",
-  //   description: `JavaScript tips\nArrow functions\nClean code`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-7.mp4",
-  //   profilePicUrl: "https://example.com/profile7.jpg",
-  //   likesCount: 182856,
-  //   isLiked: false,
-  //   isFollowed: true,
-  //   shareCount: 1176,
-  //   commentCount: 2783,
-  //   repostCount: 792,
-  //   username: "design_flow",
-  //   description: `Color harmony\nSpacing balance\nAesthetic UI`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-2.mp4",
-  //   profilePicUrl: "https://example.com/profile8.jpg",
-  //   likesCount: 6828,
-  //   isLiked: true,
-  //   isFollowed: false,
-  //   shareCount: 134,
-  //   commentCount: 45,
-  //   repostCount: 19,
-  //   username: "react_wizard",
-  //   description: `Hooks explained\nuseEffect magic\nReal examples`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-9.mp4",
-  //   profilePicUrl: "https://example.com/profile9.jpg",
-  //   likesCount: 928,
-  //   isLiked: false,
-  //   isFollowed: false,
-  //   shareCount: 99,
-  //   commentCount: 17,
-  //   repostCount: 9,
-  //   username: "devmotion",
-  //   description: `Motion effects\nSmooth UI\nPro level`,
-  // },
-  // {
-  //   videoUrl: "./newReels/vid-10.mp4",
-  //   profilePicUrl: "https://example.com/profile10.jpg",
-  //   likesCount: 828,
-  //   isLiked: true,
-  //   isFollowed: true,
-  //   shareCount: 520,
-  //   commentCount: 210,
-  //   repostCount: 66,
-  //   username: "pavan_builds",
-  //   description: `Day 10 streak\nBuilding apps\nNever give up`,
-  // },
+  {
+    videoUrl: "./newReels/vid-4.mp4",
+    profilePicUrl: "https://example.com/profile4.jpg",
+    likesCount: 768,
+    isLiked: true,
+    isFollowed: false,
+    shareCount: 210,
+    commentCount: 47,
+    repostCount: 27,
+    username: "frontend_x",
+    description: `CSS mastery\nFlex vs Grid\nPerfect layout`,
+  },
+  {
+    videoUrl: "./newReels/vid-5.mp4",
+    profilePicUrl: "https://example.com/profile5.jpg",
+    likesCount: 555,
+    isLiked: false,
+    isFollowed: false,
+    shareCount: 55,
+    commentCount: 12,
+    repostCount: 6,
+    username: "code_with_art",
+    description: `Creative coding\nSmooth transitions\nUI that pops`,
+  },
+  {
+    videoUrl: "./newReels/vid-6.mp4",
+    profilePicUrl: "https://example.com/profile6.jpg",
+    likesCount: 73892,
+    isLiked: true,
+    isFollowed: true,
+    shareCount: 410,
+    commentCount: 102,
+    repostCount: 51,
+    username: "daily_logic",
+    description: `JavaScript tips\nArrow functions\nClean code`,
+  },
+  {
+    videoUrl: "./newReels/vid-7.mp4",
+    profilePicUrl: "https://example.com/profile7.jpg",
+    likesCount: 182856,
+    isLiked: false,
+    isFollowed: true,
+    shareCount: 1176,
+    commentCount: 2783,
+    repostCount: 792,
+    username: "design_flow",
+    description: `Color harmony\nSpacing balance\nAesthetic UI`,
+  },
+  {
+    videoUrl: "./newReels/vid-2.mp4",
+    profilePicUrl: "https://example.com/profile8.jpg",
+    likesCount: 6828,
+    isLiked: true,
+    isFollowed: false,
+    shareCount: 134,
+    commentCount: 45,
+    repostCount: 19,
+    username: "react_wizard",
+    description: `Hooks explained\nuseEffect magic\nReal examples`,
+  },
+  {
+    videoUrl: "./newReels/vid-9.mp4",
+    profilePicUrl: "https://example.com/profile9.jpg",
+    likesCount: 928,
+    isLiked: false,
+    isFollowed: false,
+    shareCount: 99,
+    commentCount: 17,
+    repostCount: 9,
+    username: "devmotion",
+    description: `Motion effects\nSmooth UI\nPro level`,
+  },
+  {
+    videoUrl: "./newReels/vid-10.mp4",
+    profilePicUrl: "https://example.com/profile10.jpg",
+    likesCount: 828,
+    isLiked: true,
+    isFollowed: true,
+    shareCount: 520,
+    commentCount: 210,
+    repostCount: 66,
+    username: "pavan_builds",
+    description: `Day 10 streak\nBuilding apps\nNever give up`,
+  },
 ];
 
 let allReels = document.querySelector("#all-reels");
 
 let reels = document.querySelector(".reels");
 
-let addReels = "";
 function reelsFun() {
+  let addReels = "";
   reelData.forEach((elem, index) => {
     let reelUi = `<div class="reels">
           <video src=${elem.videoUrl} autoplay loop muted></video>
           <div class="left-part">
             <div id = ${index} class="like">
-              <h1>${elem.isLiked ? "like" : "not-like"}</h1>
+              <h1>${
+                elem.isLiked
+                  ? '<i class="ri-heart-fill"></i>'
+                  : '<i class="ri-heart-line"></i>'
+              }</h1>
               <h3>${elem.likesCount}</h3>
             </div>
             <div class="comment">
@@ -167,29 +171,38 @@ function reelsFun() {
           </div>
         </div>`;
 
-    addReels += reelUi;
-
-    // console.log(addReels);
+    addReels = addReels + reelUi;
 
     allReels.innerHTML = addReels;
+
+    // allReels.innerHTML = reelUi;
+    // console.log(addReels ,"_______________________________",index)
   });
 }
 
-
 reelsFun();
 
-
 allReels.addEventListener("click", (dets) => {
-  
-  if (dets.target.className == "follow") {
+  if (dets.target.className == "like") {
+    console.log("like success");
 
-    if(!allReels[dets.target.id].isFollowed){
-      allReels[dets.target.id].isFollowed =true
-    }else{
-      allReels[dets.target.id].isFollowed =false
+    if (!reelData[dets.target.id].isLiked) {
+      reelData[dets.target.id].isLiked = true;
+      reelData[dets.target.id].likesCount++;
+    } else {
+      reelData[dets.target.id].isLiked = false;
+      reelData[dets.target.id].likesCount--;
     }
-    
-    reelsFun()
+
+    console.log(reelData[dets.target.id].isLiked);
   }
-  
+
+  if (dets.target.className == "follow") {
+    if (!reelData[dets.target.id].isFollowed) {
+      reelData[dets.target.id].isFollowed = true;
+    } else {
+      reelData[dets.target.id].isFollowed = false;
+    }
+  }
+  reelsFun();
 });
