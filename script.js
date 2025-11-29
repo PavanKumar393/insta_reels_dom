@@ -204,5 +204,5 @@ allReels.addEventListener("click", (dets) => {
       reelData[dets.target.id].isFollowed = false;
     }
   }
-  reelsFun();
+  
 });
